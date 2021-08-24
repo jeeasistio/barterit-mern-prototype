@@ -9,6 +9,7 @@ import LoadingCover from './Utilities/LoadingCover';
 
 //Page Components
 import Marketplace from './Components/Marketplace/Marketplace';
+import Negotiation from './Components/Negotiation/Negotiation';
 import CreatePost from './Components/CreatePost/CreatePost';
 import Item from './Components/Item/Item';
 import MyProfile from './Components/MyProfile/MyProfile';
@@ -62,6 +63,9 @@ function App() {
       <Switch>
         <Route exact path="/">
           <Marketplace />
+        </Route>
+        <Route exact path="/negotiation">
+          <Negotiation />
         </Route>
         <Route exact path="/create-post">
           <CreatePost />
